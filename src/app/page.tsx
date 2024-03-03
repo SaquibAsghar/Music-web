@@ -1,3 +1,7 @@
 export default function Home() {
-  return <h1 className="text-3xl text-center mt-9">Chai Aur Code</h1>;
+  return (
+    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+      <h1 className=" text-3xl text-center mt-9">Home Page</h1>
+    </main>
+  );
 }
